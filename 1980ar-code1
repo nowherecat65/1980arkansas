@@ -22,15 +22,15 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 152,
         "fields": {
-            "first_name": "George",
-            "last_name": "Bush",
+            "first_name": "Bill",
+            "last_name": "Clinton",
             "election": 15,
-            "party": "Republican",
+            "party": "Pulaski",
             "state": "Texas",
             "priority": 1,
             "description": "<p>George Bush has served as Vice President for eight years, and also as a UN Ambassador, Director of the RNC, and Director of the CIA. He is hoping to succeed the popular Reagan, but fights the impression that he is <em>too</em> dependent on his former boss. He must prove he has the independence, ideological rigor, and strength to serve as President, all while finding some way to reduce the popularity of his opponent. Bush appears to be trailing badly as the campaign begins.</p>",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "color_hex": "#1F4071",
+            "secondary_color_hex": "#4b668d",
             "is_active": 1,
             "image_url": "https://www.jetsimon.com/public/static/images/george-bush-1988.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>In spite of a hard-fought challenge from Michael Dukakis, you have held on to succeed Ronald Reagan.</p><p>Whatever you did, it must have worked. Observers were leaving your campaign for dead just a few months ago. On the political front, you can continue the policies of Reagan or turn in a more moderate direction. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
@@ -45,66 +45,20 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 153,
         "fields": {
-            "first_name": "Michael",
-            "last_name": "Dukakis",
+            "first_name": "Frank W.",
+            "last_name": "White",
             "election": 15,
-            "party": "Democrat",
-            "state": "Massachusetts",
+            "party": "Republican",
+            "state": "Pulaski",
             "priority": 2,
             "description": "<p>Michael Dukakis has been elected three times as Governor of Massachusetts. His chances this year seem to be good, if he can press the case for his own ability and challenge the readiness of Bush. Dukakis has won the nomination without aligning himself firmly with a specific wing of the party. His national reputation is positive, but inchoate. He will be expected to define himself more clearly, and may need to explain some older votes and decisions as they become known.</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 1,
+            "color_hex": "#9D2235",
+            "secondary_color_hex": "#b04e5d",
+            "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/static/images/michael-dukakis-1988.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>In spite of a hard-fought challenge from George Bush, you have held on to succeed Ronald Reagan.</p><p>You were always the favorite to win, but a lot could have gone wrong. On the political front, you can work a Democratic House to overturn the worst excesses of Reagan. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
             "electoral_loss_message": "<h3>Sorry. You have lost the 1988 election.</h3><p>In spite of you being the favorite, things just never seemed to click once the real campaigning began.</p><p>Time will tell if Bush governs as a moderate, or a staunch conservative. Many Democrats feel that this election was yours to lose, and it seems unlikely that you will be welcome to run again in four years. Your term as Governor, however, runs through 1991.</p>",
             "no_electoral_majority_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>Although the Electoral College was tied, the Democrats have won a solid majority in the House, and will elevate Michael Dukakis to the Presidency.</p><p>On the political front, you can work a Democratic House to overturn the worst excesses of Reagan. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 154,
-        "fields": {
-            "first_name": "Ron",
-            "last_name": "Paul",
-            "election": 15,
-            "party": "Libertarian",
-            "state": "Texas",
-            "priority": 3,
-            "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 155,
-        "fields": {
-            "first_name": "Lenora",
-            "last_name": "Fulani/Other",
-            "election": 15,
-            "party": "Independent",
-            "state": "Pennsylvania",
-            "priority": 4,
-            "description": "'",
-            "color_hex": "#00C100",
-            "secondary_color_hex": "#A1FFA1",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
             "description_as_running_mate": "'",
             "candidate_score": 1,
             "running_mate": false
@@ -118,7 +72,7 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Quayle",
             "election": 15,
             "party": "Republican",
-            "state": "Indiana",
+            "state": "Pulaski County",
             "priority": 5,
             "description": "'",
             "color_hex": "#FF0000",
@@ -483,6 +437,8 @@ $(".container")[0].style.background = "linear-gradient(180deg, #001F4D 0%, #0E3D
 document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
 
 document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+e.HomeStateText = "Home County:";
 
 document.head.innerHTML += "<style>#results_container {color:#0B0E13;} .inner_window_w_desc {background-color:#F4F1EA!important;}</style>";
 
